@@ -1,0 +1,16 @@
+{
+  "name": "VL53L1",
+  "version": "1.0.0",
+  "build": {
+  "includeDir": "."
+  },
+  "description": "Library for VL53L1X Time-of-Flight sensor",
+  "keywords": "sensor, i2c, time-of-flight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GelidusResearch/VL53L1.git"
+  },
+  "frameworks": "espidf",
+  "platforms": "espressif32",
+  "srcFilter": "+<*>"
+}
